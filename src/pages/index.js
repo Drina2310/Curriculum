@@ -1,15 +1,13 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
 import BasicLayout from '../layouts/BasicLayout';
+import Profile from '../components/Profile';
 import "./index.scss";
 
-export default function index() {
+export default function Index() {
   return (
-    <BasicLayout menuColor="#000">
-      <h1 className="title">Hola</h1>
-      <Button variant="primary">Click me</Button>
-
-      <Button variant="danger">Click me</Button>
+    <BasicLayout>
+      <Profile />
+      <h1 className="title">Estamos en la home</h1>
     </BasicLayout>
   )
 }
