@@ -20,7 +20,7 @@ const socialMedia = [
     },
     {
         icon: <IcLinkedin />,
-        link: "https://www.instagram.com/"
+        link: "https://www.linkedin.com/in/drina-rincon-7677b7200/"
     },
 ]
 

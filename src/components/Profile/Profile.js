@@ -11,15 +11,15 @@ const data = [
     },
     {
         title: 'Dirección:',
-        info: '46500, Valencia, calle inventada, 4',
+        info: '46500, Argentina, calle inventada, 4',
     },
     {
         title: 'Email:',
-        info: 'drinarincon4@gmail.com',
+        info: 'drinarincon@gmail.com',
     },
     {
         title: 'Telefono',
-        info: '+54 9 0351 153298661',
+        info: '+54 9 341 222 3333.',
     },
 ]
 export default function Profile() {
@@ -34,7 +34,7 @@ export default function Profile() {
                     </Col>
                     <Col xs={12} md={8} className="info__data">
                         <span>¡HOLA!</span>
-                        <p>Drina Rincon</p>
+                        <p>Drina Rincón</p>
                         <p>Frontend Developer</p>
                         <hr />
                         <div className="more-info">

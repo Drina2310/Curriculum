@@ -34,7 +34,7 @@ export const backendSkillsColors = {
 
 export const soSkills = [
     {type: "Windows", level: 100},
-    {type: "Linux", level: 90},
+    {type: "Linux", level: 95},
     {type: "MacOS", level: 70},        
 ]
 
@@ -42,6 +42,7 @@ export const soSkillsColors = {
     bar: "#f09c00",
     title: {
         text: "#fff",
-        background: "#b46900"
+        background: "#b46900",
     }
 }
+
