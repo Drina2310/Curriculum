@@ -2,7 +2,7 @@ import React from 'react'
 import {Container} from 'react-bootstrap'
 import BasicLayout from '../layouts/BasicLayout';
 import ListSkills from '../components/ListSkills'
-import {frontendSkills, frontendSkillsColors} from '../utils/skills'
+import {frontendSkills, frontendSkillsColors, backendSkills, backendSkillsColors, soSkills, soSkillsColors} from '../utils/skills'
 import "./skills.scss";
 
 export default function Skills() {
@@ -12,6 +12,14 @@ export default function Skills() {
                 <div className="skills__block">
                     <h2>Frontend</h2>
                     <ListSkills skills={frontendSkills} colors={frontendSkillsColors}/>
+                </div>
+                <div className="skills__block">
+                    <h2>Backend</h2>
+                    <ListSkills skills={backendSkills} colors={backendSkillsColors}/>
+                </div>
+                <div className="skills__block">
+                    <h2>Sistemas Operativos</h2>
+                    <ListSkills skills={soSkills} colors={soSkillsColors}/>
                 </div>
             </Container>
         </BasicLayout>

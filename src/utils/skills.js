@@ -17,3 +17,31 @@ export const frontendSkillsColors = {
     }
 }
     
+export const backendSkills = [
+    {type: "Node JS", level: 95},
+    {type: "Java", level: 80},
+    {type: "PHP", level: 70},
+    {type: "Phyton", level: 65},           
+]
+
+export const backendSkillsColors = {
+    bar: "#00bd3f",
+    title: {
+        text: "#fff",
+        background: "#009331"
+    }
+}
+
+export const soSkills = [
+    {type: "Windows", level: 100},
+    {type: "Linux", level: 90},
+    {type: "MacOS", level: 70},        
+]
+
+export const soSkillsColors = {
+    bar: "#f09c00",
+    title: {
+        text: "#fff",
+        background: "#b46900"
+    }
+}
