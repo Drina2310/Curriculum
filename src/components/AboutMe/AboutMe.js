@@ -18,7 +18,7 @@ export default function AboutMe() {
             </p>
             <hr />
 
-            <a href={CV} target="_blank">
+            <a href={CV} target="_blank" rel="noreferrer noopener">
                 <Button primary>Descargar CV</Button>
             </a>
         </Container>
