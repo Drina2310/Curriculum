@@ -62,7 +62,25 @@
                             &:last-of-type {
                                 width: 75%;
                                 color: #a2a2a2;
+                                padding-left: 45px;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .info {
+        &__data{
+            .more-info{
+                .item {
+                    p{
+                        &:last-of-type {
+                            padding-left: 0px !important;
                         }
                     }
                 }
